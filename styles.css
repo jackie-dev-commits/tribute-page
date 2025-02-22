@@ -1,0 +1,82 @@
+html {  
+    box-sizing: border-box;  
+}  
+body {  
+    background-color: bisque;  
+    font-family: sans-serif;  
+    color: black;  
+}  
+#title, h2 {  
+    font-weight: bold;  
+    text-align: center;  
+    padding-top: 5%;  
+}  
+h2 {  
+    padding-top: 0.2%;  
+}  
+#main {  
+    max-width: 220vh;  
+    margin: auto;  
+}  
+#img-div {  
+    display: flex;  
+    flex-direction: column; /* Arrange items vertically */  
+    justify-content: center;  
+    align-items: center;  
+    margin: 20px auto;  
+    margin: 20px auto;  
+            width: 200vh; /* Adjust this to the desired image container width */  
+            border: 2px solid #ccc; /* Add a border to the container */  
+            border-radius: 10px; /* Add rounded corners to the container */  
+            overflow: hidden; /* Clip the image if it overflows the container */  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */  
+            padding: 10px; /* Add padding around the container */  
+            background-color: white;  
+            height: 70vh;  
+}  
+#img-div #image {  
+            max-width: 100%;  
+            height: auto;  
+            width: 100vh;  
+            align-content: center;  
+}  
+#img-div #img-caption {  
+            text-align: center;  
+            text-decoration: none;  
+            margin: 20px 0 0 0;  
+}  
+#tribute-info {  
+            display: flex;  
+            flex-direction: column;  
+            justify-content: center;  
+            align-items: center;  
+            text-align: center; /* Center-align text within the div */  
+            margin: 20px auto;  
+            max-width: 800px; /* Adjust the width if needed */  
+            padding: 20px;  
+            border: none;  
+}  
+#tribute-info ul {  
+            padding: 0; /* Remove default padding */  
+            text-align: left; /* Align text to the left */  
+            align-self: flex-start; /* Align ul to the start of the container */  
+            width: 100%; /* Ensure ul takes up the full width */  
+            margin: 0;  
+            max-width: 600px;  
+            word-wrap: break-word;  
+}  
+#tribute-info li {  
+            margin: 20px 0; /* Add some space between list items */  
+}  
+#tribute-info h1 {  
+            font-size: 16px;  
+}  
+#tribute-info p {  
+            text-align: left;  
+            align-self: flex-start;  
+            max-width: 600px;  
+}  
+.footer {  
+            text-align: center;  
+            font-size: 18px;  
+}  
